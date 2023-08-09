@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body {
     margin: 0%;
@@ -9,6 +10,7 @@ body {
     font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
+    
 }
 
 .container-fluid{
@@ -26,7 +28,7 @@ body {
     margin-left: 70px;
 }
 .nav-height{
-    height: 30px;
+    height: 40px;
     text-align: center;
     background-color: #2351ad;
     color: white;
@@ -55,7 +57,7 @@ body {
     margin-right: 60px;
 }
 .header-div{
-    height: 500px;
+    height: 550px;
    padding-left: 200px;
    padding-top: 200px;
    padding-right: 200px;
@@ -77,4 +79,55 @@ body {
     border-radius: 8px;
     margin-top: 30px;
 
+}
+.top-card-div{
+height: 200px;
+
+margin-left: 200px;
+margin-right: 200px;
+margin-top: -70px;
+z-index: 2;
+display: flex;
+justify-content: space-between;
+}
+.div-1{
+    height: 150px;
+    width: 230px;
+   
+    border-radius: 10px;
+    padding: 2px;
+    background-color: white;
+}
+.card-btn-buy{
+    margin-top: 15px;
+    background-color: #f2e6ff;
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    margin-left: 55px;
+    color:  #8000ff;
+    border: none;
+}
+.card-btn-trade{
+    background-color: #e6ffe6;
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 1px;
+    margin-top: 15px;
+    padding-bottom: 2px;
+    color:  #00cc66;
+    border: none;
+
+}
+.card-text{
+    color: black;
+}
+.text{
+    font-size: 16px;
+}
+.soul-img-size{
+    height: 40px;
 }
